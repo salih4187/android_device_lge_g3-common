@@ -96,6 +96,9 @@ DEVICE_MATRIX_FILE := $(LOCAL_PATH)/configs/compatibility_matrix.xml
 # Legacy memfd
 TARGET_HAS_MEMFD_BACKPORT := true
 
+# Misc
+BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
+
 # Offmode Charging
 BOARD_HEALTHD_CUSTOM_CHARGER_RES := $(LOCAL_PATH)/charger/images
 
