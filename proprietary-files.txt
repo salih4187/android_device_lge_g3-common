@@ -189,9 +189,9 @@ lib/libcir_driver.so:vendor/lib/libcir_driver.so
 lib/hw/consumerir.msm8974.so:vendor/lib/hw/consumerir.msm8974.so
 
 # Thermal
-bin/thermal-engine:vendor/bin/thermal-engine
-vendor/lib/libthermalclient.so
-vendor/lib/libthermalioctl.so
+bin/thermal-engine:vendor/bin/thermal-engine|ca41212b298aef4c83cc25006f6a3e57c58dc076
+vendor/lib/libthermalclient.so|e1f2136608a7104016f7f7261dddcfbb0c6aa870
+vendor/lib/libthermalioctl.so|9c7993e03f68bb17dd744c0369b9bfaff23a1e66
 
 # Time services
 -vendor/lib/libtime_genoff.so

@@ -269,7 +269,7 @@ PRODUCT_SHIPPING_API_LEVEL := 19
 
 # Thermal
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/thermal-engine-8974.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-8974.conf
+    $(LOCAL_PATH)/configs/thermal-engine-8974.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/thermal-engine-8974.conf
 
 # TimeKeep
 PRODUCT_PACKAGES += \
