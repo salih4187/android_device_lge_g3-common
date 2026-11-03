@@ -87,10 +87,11 @@ on charger
 on property:sys.boot_completed=1
     trigger enable-low-power
 
-    setprop sys.io.scheduler bfq
+    setprop sys.io.scheduler row
     setprop ro.qualcomm.perf.cores_online 2
     setprop vendor.post_boot.parsed 1
     start mpdecision
+    write /sys/block/mmcblk0/bdi/read_ahead_kb 512
 
 on property:init.svc.recovery=running
     trigger enable-low-power
